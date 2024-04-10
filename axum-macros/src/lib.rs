@@ -43,6 +43,7 @@
 #![cfg_attr(docsrs, feature(doc_cfg))]
 #![cfg_attr(test, allow(clippy::float_cmp))]
 #![cfg_attr(not(test), warn(clippy::print_stdout, clippy::dbg_macro))]
+// CHANGE(petar): Add flag for feature `diagnostic_namespace` on nightly
 #![feature(diagnostic_namespace)]
 
 use proc_macro::TokenStream;
