@@ -68,6 +68,7 @@
 #![cfg_attr(docsrs, feature(doc_cfg, doc_auto_cfg))]
 #![cfg_attr(test, allow(clippy::float_cmp))]
 #![cfg_attr(not(test), warn(clippy::print_stdout, clippy::dbg_macro))]
+#![feature(diagnostic_namespace)]
 
 #[allow(unused_extern_crates)]
 extern crate self as axum_extra;
